@@ -1,0 +1,12 @@
+*{padding:0;margin:0;box-sizing:border-box}
+a{text-decoration:none}
+.nav{background-color:#251b17;width:100%}
+.nav__bar{height:53px;margin-left:700px;margin-right:196px;display:flex;list-style:none;justify-content:space-around}
+.nav__bar>li{margin-top:20px}
+.nav__bar>li>a{color:#fff;display:block}
+.slogan{background-color:#3b2c25}
+.slogan__main{width:70%;height:213px;margin:auto;background-color:#30241f;display:flex;list-style:none}
+.slogan__main__img{margin-top:-50px;display:block}
+.slogan__main__desc{width:400px;display:block;margin-top:97px;margin-left:25px;margin-bottom:46px;font-family:Arial,Helvetica,sans-serif;color:#a68b7a}
+.slogan__main__desc>a{color:#fff;font-family:Arial,Helvetica,sans-serif}
+.slogan__main__tittle{display:block;height:98px;margin-top:90px;border-right:#4f3b31 solid 2px;color:#fff}
