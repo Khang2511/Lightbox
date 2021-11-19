@@ -1,0 +1,33 @@
+/* Tablet and Mobile */
+@media only screen and (max-width : 1023px){
+    .nav__bar{
+        margin-left: 40%;
+    }
+
+    .slogan__main{
+        width: 100%;
+    }
+
+    .main__content,.footer__item {
+        width: 100%;
+    }
+
+    .first__content, .second__content{
+        margin-left: 10%;
+    }
+}
+
+/* Mobile */
+@media only screen and (max-width : 739px) {
+
+}
+
+/* Tablet */
+@media only screen and (min-width : 740px) and (max-width : 1023px) {
+    
+}
+
+/* PC */
+@media only screen and (min-width : 1024px) {
+    
+}
