@@ -28,21 +28,35 @@ a{
     
 }
 
-.nav__bar>li{
-    margin-top: 30px;
+.bar__item>img {
+    opacity: 0;
 }
 
-.nav__bar>li>a{
-    color: white;
-    display: block;
-    font-size: 11px;
-    text-transform: uppercase;
-    margin-top: 10px;
+.bar__item:nth-child(4)>img {
+    opacity: 1;
 }
+
+
+.bar__item div{
+    margin-left: 25px;
+    margin-top: -20px;
+}
+
+.nav__bar li a{
+    color: #c7b18d;
+    display: block;
+    margin-top: 15px;
+
+    font-size: 11px;
+    font-family: "Arial";
+    text-transform: uppercase;
+}
+
 
 .slogan{
     background-color: #3B2C25;
-    
+    border: solid 1px #4c3a30;
+    border-bottom: solid 1px #ffff;
 }
 
 .slogan__main{
@@ -52,6 +66,8 @@ a{
     background-color: #30241F;
     display: flex;
     list-style: none;
+    border-left: solid 1px #4c3a30;
+    border-right: solid 1px #4c3a30;
 }
 
 .slogan__main__img{
@@ -75,7 +91,7 @@ a{
 
 .slogan__main__tittle>h1{
     font-size: 68px;
-    font-weight: 100 !important;
+    font-weight: 500 ;
 }
 
 .slogan__main__tittle>p{
@@ -86,16 +102,17 @@ a{
 }
 
 #content{
-    background-image: linear-gradient(#CFC6C0, white);
+    background-image: linear-gradient(#CFC6C0, #eeebe9);
 }
 
 .main__content{
     width: 1000px;
-
     margin: auto;
     padding-bottom: 75px;
-    background-image: linear-gradient(#E6E2DF, white);
+    background-image: linear-gradient(#E6E2DF, #eeebe9);
     
+    border-left: solid 1px #ffff;
+    border-right: solid 1px #ffff;
 }
 
 .contact{
@@ -156,7 +173,8 @@ a{
     
     display: flex;
     list-style: none;
-    
+    border-left: solid 1px #4c3a30;
+    border-right: solid 1px #4c3a30;
 }
 
 .item__img{
@@ -166,6 +184,9 @@ a{
     padding-left: 96px;
 }
 
+.item__img img{
+    margin-top: 7px;
+}
 
 .item__desc {
     width: 65%;
@@ -173,6 +194,8 @@ a{
     font-family: Arial, Helvetica, sans-serif;
     text-transform: uppercase;
     font-size: 11px;
+    border-left: solid 1px #4c3a30;
+    
     padding: 35px 30px;
     line-height: 15px;
 }
@@ -184,7 +207,6 @@ a{
 
 .item__desc>p,.item__desc__left{
     color: #947664;
-    font-size: 11px;
     
 }
 

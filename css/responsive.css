@@ -1,5 +1,94 @@
 /* Tablet and Mobile */
 @media only screen and (max-width : 1023px){
+
+}
+
+/* Mobile */
+@media only screen and (max-width : 739px) {
+    .nav__bar {
+        width: 60%;
+        height: 53px;
+        margin-left: 37%;
+
+        display: flex;
+        list-style: none;
+        justify-content: space-between;
+    }
+
+    .slogan__main{
+        width: 100%;
+        display:table-cell;
+    }
+
+    .slogan__main__tittle{
+        border: none;
+        margin-top: -165px;
+        margin-left: 120px;
+    }
+
+    .slogan__main__desc {
+        width: 90%;
+        display: block;
+        margin-top: 55px;
+        margin-left: 17px;
+    }
+
+    .main__content,.footer__item, .banner__img>img {
+        width: 100%;
+    }
+
+    .first__content, .second__content{
+        margin-left: 10%;
+    }
+
+    .slogan__main__img{
+        display: inline-block;
+    }
+
+    .slogan__main__img>img {
+        margin-top: -56.3%;
+        margin-left: -28%;
+        display: block;
+    }
+
+    .first__content{
+        width: 95%;
+        display: block;
+        margin-left: 5%;
+    }
+
+    .content__list > li{
+        width: 90%;
+    }
+
+    .second__content {
+        margin-top: 30%;
+    }
+
+    .number {
+        margin-top: 5%
+    }
+
+    .banner__desc, .item__desc__left {
+        display: block;
+    }
+
+    .item__img{
+        width: 40%;
+        padding-left: 0px;
+    }
+
+    .item__desc{
+        padding: 20px 5px;
+        font-size: 10px;
+    }
+
+
+    
+}
+
+/* Tablet */
+@media only screen and (min-width : 740px) and (max-width : 1023px) {
     .nav__bar{
         margin-left: 40%;
     }
@@ -15,16 +104,6 @@
     .first__content, .second__content{
         margin-left: 10%;
     }
-}
-
-/* Mobile */
-@media only screen and (max-width : 739px) {
-
-}
-
-/* Tablet */
-@media only screen and (min-width : 740px) and (max-width : 1023px) {
-    
 }
 
 /* PC */

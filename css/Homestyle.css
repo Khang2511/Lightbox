@@ -24,11 +24,21 @@ a{
     
 }
 
-.nav__bar>li{
-    margin-top: 6%;
+.bar__item>img {
+    opacity: 0;
 }
 
-.nav__bar>li>a{
+.bar__item:first-child>img {
+    opacity: 1;
+}
+
+
+.bar__item div{
+    margin-left: 25px;
+    margin-top: -20px;
+}
+
+.nav__bar li a{
     color: #c7b18d;
     display: block;
     margin-top: 15px;
@@ -55,9 +65,10 @@ a{
     border-right: solid 1px #4c3a30;
 }
 
-.slogan__main__img{
-    margin-top: -14.3%;
-    margin-left: -4%;
+
+.slogan__main__img>img{
+    margin-top: -50.3%;
+    margin-left: -15%;
     display: block;
 }
 
@@ -85,7 +96,7 @@ a{
     display: block;
     height: 98px;
     margin-top: 90px; 
-    margin-left: -80px;
+    margin-left: -123px;
     padding-right: 25px;
     border-right: #4f3b31 solid 2px;
 
@@ -308,7 +319,7 @@ a{
 
 .item__desc>p,.item__desc__left{
     color: #947664;
-    font-size: 11px;
+    
     
 }
 
