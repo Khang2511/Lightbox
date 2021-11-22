@@ -13,6 +13,7 @@ a{
     text-decoration: none;
 }
 
+/* Header start */
 .nav{
     background-color:#251B17;
     width: 100%;
@@ -71,7 +72,7 @@ a{
 }
 
 .slogan__main__img{
-    margin-top: -185px;
+    margin-top: -275px;
     margin-left: -44px;
     display: block;
 }
@@ -89,6 +90,7 @@ a{
     font-family: "Duepuntozero";
 }
 
+
 .slogan__main__tittle>h1{
     font-size: 68px;
     font-weight: 500 ;
@@ -101,6 +103,10 @@ a{
     margin-top: -15px;
 }
 
+/* Header end */
+
+
+/* Main-content start */
 #content{
     background-image: linear-gradient(#CFC6C0, #eeebe9);
 }
@@ -128,20 +134,25 @@ a{
     padding-top: 45px;
     padding-bottom: 25px;
     border-bottom: #cec5c0 solid 1px;
+}
 
-    font-size: 20px;
+.contact__tittle h1{
     font-family: "Duepuntozero";
+    font-weight: 500;
+    font-size: 41px;
 }
 
 .contact__desc{
     margin: 20px 0px;
     color: #645a56;
+    color: #645a56;
 }
+
 
 .contact__info{
     display: flex;
     justify-content: flex-start;
-    margin-bottom: 40px;
+    margin-bottom: 25px;
 }
 
 .contact__info>li:nth-child(2){
@@ -162,6 +173,37 @@ a{
     color: #645a56;
 }
 
+.contact__form{
+    display: inline-block;
+}
+
+.form__input li{
+    margin-top: 15px;
+}
+
+.form__input>li>p{
+    text-transform: uppercase;
+    color: #645a56;
+}
+
+
+.form__input>li>input,.form__input>li>textarea{
+    padding: 7px;
+    width: 464px;
+}
+
+.btn__submit{
+    padding: 10px 30px;
+    float: right;
+    margin-top: -8px;
+
+    border: 1px solid #aba199;
+    background-color: #cdc4be;
+}
+
+/* Main-content end */
+
+/* Footer start */
 #footer{
     background-color: #3B2C25;
 }
@@ -214,22 +256,6 @@ a{
     color: white;
 }
 
-.contact__form{
-    display: inline-block;
 
-}
-
-.form__input>li>p{
-    text-transform: uppercase;
-}
-
-.form__input>li>input,.form__input>li>textarea{
-    padding: 7px;
-    width: 464px;
-}
-
-.btn__submit{
-    padding: 10px 25px;
-    float: right;
-}
+/* Footer end */
 
