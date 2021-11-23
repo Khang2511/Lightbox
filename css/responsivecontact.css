@@ -37,12 +37,8 @@
         margin-top: 30px;
     }
 
-    .main__content,.footer__item, .banner__img>img {
+    .main__content,.footer__item {
         width: 100%;
-    }
-
-    .first__content, .second__content{
-        margin-left: 10%;
     }
 
     .slogan__main__img{
@@ -62,7 +58,8 @@
 
     .contact{
         padding-left: 10%;
-        width: 100%;
+        margin: 0;
+        width: 90%;
     }
 
     .main__content{
@@ -70,13 +67,17 @@
     }
 
     .info__item>div:nth-child(2) {
-        margin-left: 20px;
+        margin-left: 6px;
         color: #645a56;
     }
 
     .form__input>li>input, .form__input>li>textarea {
         width: 100%;
     }    
+
+    .btn__submit{
+        width: 100%;
+    }
 
      .item__desc__left {
         display: block;
@@ -111,7 +112,7 @@
     }
 
     .contact{
-        width: 90%;
+        width: 61%;
     }
 
     

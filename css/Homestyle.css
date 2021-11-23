@@ -178,6 +178,7 @@ a{
 .content__desc{
     margin-left: 45px;
     margin-top: 13px;
+    color: #645a56;
 }
 .content__quote{
     width: 250px;
@@ -268,6 +269,7 @@ a{
     font-style: italic;
     font-weight: bold;
     float: right;
+    color: #645a56;
 }
 
 .banner__sample span{

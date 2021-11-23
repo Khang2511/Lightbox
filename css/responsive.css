@@ -69,7 +69,10 @@
     }
 
     .number {
-        margin-top: 5%
+        justify-content: start;
+        margin-left: 0%;
+        margin-top: 2%;
+
     }
 
     .banner__desc, .item__desc__left {
@@ -85,7 +88,6 @@
         padding: 20px 5px;
         font-size: 10px;
     }
-
 
     
 }
