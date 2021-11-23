@@ -41,8 +41,8 @@ a{
 .nav__bar li a{
     color: #c7b18d;
     display: block;
-    margin-top: 15px;
 
+    line-height: 25px;
     font-size: 11px;
     font-family: "Arial";
     text-transform: uppercase;

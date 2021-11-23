@@ -89,7 +89,9 @@
         font-size: 10px;
     }
 
-    
+    li.bar__item {
+        margin-left: -13px;
+    }
 }
 
 /* Tablet */

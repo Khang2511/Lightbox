@@ -46,12 +46,13 @@ a{
 .nav__bar li a{
     color: #c7b18d;
     display: block;
-    margin-top: 15px;
 
+    line-height: 25px;
     font-size: 11px;
     font-family: "Arial";
     text-transform: uppercase;
 }
+
 
 
 .slogan{
@@ -144,7 +145,6 @@ a{
 
 .contact__desc{
     margin: 20px 0px;
-    color: #645a56;
     color: #645a56;
     font-family: "Arial";
 }
