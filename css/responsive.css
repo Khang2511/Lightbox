@@ -27,7 +27,7 @@
         width: 90%;
         display: block;
         width: 90%;
-    margin-top: 30px;
+        margin-top: 30px;
     }
 
     .main__content,.footer__item, .banner__img>img {
@@ -58,6 +58,10 @@
 
     .content__list > li{
         width: 90%;
+    }
+
+    .content__quote{
+        margin: auto;
     }
 
     .second__content {

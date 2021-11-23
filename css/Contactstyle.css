@@ -20,9 +20,9 @@ a{
 }
 
 .nav__bar{
-    width: 450px;
+    width: 31%;
     height: 53px;  
-    margin-left: 52%;
+    margin-left: 49%;
     display: flex;
     list-style: none;
     justify-content: space-around;
@@ -34,7 +34,7 @@ a{
 }
 
 .bar__item:nth-child(4)>img {
-    opacity: 1;
+    opacity: 2;
 }
 
 
@@ -114,7 +114,7 @@ a{
 .main__content{
     width: 1000px;
     margin: auto;
-    padding-bottom: 75px;
+    padding: 0 3% 5% 22%;
     background-image: linear-gradient(#E6E2DF, #eeebe9);
     
     border-left: solid 1px #ffff;
@@ -123,7 +123,6 @@ a{
 
 .contact{
     width: 620px;
-    margin-left: 35%;
    
     
     font-size: 13px;
@@ -146,6 +145,7 @@ a{
     margin: 20px 0px;
     color: #645a56;
     color: #645a56;
+    font-family: "Arial";
 }
 
 
@@ -226,9 +226,6 @@ a{
     padding-left: 96px;
 }
 
-.item__img img{
-    margin-top: 7px;
-}
 
 .item__desc {
     width: 65%;
@@ -238,7 +235,7 @@ a{
     font-size: 11px;
     border-left: solid 1px #4c3a30;
     
-    padding: 35px 30px;
+    padding: 30px 30px;
     line-height: 15px;
 }
 
