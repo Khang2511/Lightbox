@@ -102,6 +102,7 @@
 
     .slogan__main{
         width: 100%;
+        padding-right: 1%;
     }
 
     .main__content,.footer__item {
@@ -110,6 +111,10 @@
 
     .first__content, .second__content{
         margin-left: 10%;
+    }
+
+    .content__list{
+        padding-top: 5%;
     }
 }
 

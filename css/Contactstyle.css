@@ -125,7 +125,7 @@ a{
 .main__content{
     width: 1000px;
     margin: auto;
-    padding-bottom: 75px;
+    padding-bottom: 135px;
     background-image: linear-gradient(#E6E2DF, #eeebe9);
     
     border-left: solid 1px #ffff;
@@ -142,7 +142,7 @@ a{
 }
 
 .contact__tittle{
-    padding-top: 45px;
+    padding-top: 48px;
     padding-bottom: 25px;
     border-bottom: #cec5c0 solid 1px;
 }
@@ -193,7 +193,12 @@ a{
 }
 
 .form__input li{
-    margin-top: 15px;
+    margin-top: 17px;
+    line-height: 25px;
+}
+
+.form__input textarea{
+    height: 216px;
 }
 
 .form__input>li>p{
@@ -225,7 +230,7 @@ a{
 
 .footer__item{
     width: 1000px;
-    height: 93px;
+    height: 130px;
     margin: auto;
     
     display: flex;
