@@ -12,12 +12,13 @@ a{
 .nav{
     background-color:#251B17;
     width: 100%;
+    display: flex;
 }
 
 .nav__bar{
     width: 450px;
     height: 53px;  
-    margin-left: 52%;
+    margin-left: 50%;
     display: flex;
     list-style: none;
     justify-content: space-around;
@@ -27,6 +28,7 @@ a{
 .bar__item>img {
     opacity: 0;
 }
+
 
 .bar__item:first-child>img {
     opacity: 1;
@@ -142,8 +144,10 @@ a{
     flex-direction: column;
     display: flex;
     justify-content: space-around;
+    padding-top: 5px;
     padding-bottom: 40px;
     flex-grow: 1;
+    
 }
 
 .content__list>li>h2{
@@ -152,8 +156,7 @@ a{
     font-weight: 500 ;
     font-family: "Duepuntozero";
     
-    padding: 25px 0px;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
     border-bottom: #cec5c0 solid 1px;
 }
 
@@ -168,7 +171,7 @@ a{
 
     position: absolute;
     top: 5%;
-    left: 13%;
+    margin-left: 2%;
     font-weight: 500;
     font-size: 23px;
     font-family: "Duepuntozero";

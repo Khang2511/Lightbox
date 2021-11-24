@@ -5,6 +5,11 @@
 
 }
 
+html, body {
+    width: 100%;
+    height: 100vh;
+  }
+
 ul{
     list-style: none;
 }
@@ -13,14 +18,19 @@ a{
     text-decoration: none;
 }
 
+#container{
+    overflow: hidden;
+}
+
 /* Header start */
 .nav{
     background-color:#251B17;
     width: 100%;
+    display: flex;
 }
 
 .nav__bar{
-    width: 31%;
+    width: 500px;
     height: 53px;  
     margin-left: 49%;
     display: flex;
@@ -178,6 +188,10 @@ a{
     display: inline-block;
 }
 
+.form__input{
+    width: 464px;
+}
+
 .form__input li{
     margin-top: 15px;
 }
@@ -190,7 +204,7 @@ a{
 
 .form__input>li>input,.form__input>li>textarea{
     padding: 7px;
-    width: 464px;
+    width: 100%;
 }
 
 .btn__submit{

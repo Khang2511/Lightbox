@@ -84,6 +84,10 @@
         width: 100%;
     }    
 
+    .form__input{
+        width: 100%;
+    }
+
     .btn__submit{
         width: 100%;
     }
@@ -128,6 +132,15 @@
 
     
 
+}
+
+@media only screen and (min-height : 1011px){
+    /* #footer{
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    } */
 }
 
 /* PC */
