@@ -30,7 +30,7 @@
         margin-top: 30px;
     }
 
-    .main__content,.footer__item, .banner__img>img {
+    .main__content,.footer__item, .work__img>img {
         width: 100%;
     }
 
@@ -56,11 +56,11 @@
         margin-left: 5%;
     }
 
-    .content__list > li{
+    .list > li{
         width: 90%;
     }
 
-    .content__quote{
+    .quote{
         margin: auto;
     }
 
@@ -68,25 +68,27 @@
         margin-top: 30%;
     }
 
-    .number {
+    .work__number {
         justify-content: start;
         margin-left: 0%;
         margin-top: 2%;
-
     }
 
-    .banner__desc, .item__desc__left {
+    .work, .item__desc__left {
         display: block;
     }
 
     .item__img{
         width: 40%;
         padding-left: 0px;
+        display: none;
     }
 
     .item__desc{
         padding: 20px 5px;
         font-size: 10px;
+        width: 100%;
+        text-align: center;
     }
 
     li.bar__item {
@@ -113,7 +115,7 @@
         margin-left: 10%;
     }
 
-    .content__list{
+    .list{
         padding-top: 5%;
     }
 }

@@ -11,11 +11,14 @@
     .item__img{
         width: 40%;
         padding-left: 0px;
+        display: none;
     }
 
     .item__desc{
         padding: 20px 5px;
         font-size: 10px;
+        width: 100%;
+        text-align: center;
     }
 
     li.bar__item {
